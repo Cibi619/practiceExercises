@@ -1,0 +1,47 @@
+header {
+    margin: 0%;
+    max-height: 10%;
+    background-color: peachpuff;
+    
+}
+.wrapper {
+    position: relative;
+    /* border: 3px solid red; */
+}
+.main-navigation{
+    margin-top: 0%;
+    display: flex;
+    gap: 2%;
+    list-style-type: none;
+    box-sizing: border-box;   
+}
+img#logo-img{
+    object-fit: contain;
+    height: auto;
+    max-width: 100%;
+}
+.nav-link{
+    /* width: 50px;
+    height: 50px;
+    margin: 0 5px; */
+    /* margin-top: 50%; */
+    
+}
+
+input#search {
+    width: 500px;
+    height: 30px;
+    border: 0.5px solid black;
+    position: relative;
+    top: 35%;
+    background: none;
+	color: inherit;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    /* visibility: hidden; */
+}
+svg{
+    height: 80%;
+}
